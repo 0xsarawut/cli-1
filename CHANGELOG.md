@@ -1,5 +1,21 @@
 # Changelog
 
+## [11.11.1](https://github.com/npm/cli/compare/v11.11.0...v11.11.1) (2026-03-04)
+### Bug Fixes
+* [`a29aeee`](https://github.com/npm/cli/commit/a29aeee18f3ddc2348a8e00787d237c874642789) [#9028](https://github.com/npm/cli/pull/9028) arborist: retry bin-links on Windows EPERM (#9028) (@manzoorwanijk)
+* [`6565eeb`](https://github.com/npm/cli/commit/6565eeb818494e1feb4e14492804ce936b394b4a) [#9045](https://github.com/npm/cli/pull/9045) bypass packument cache to prevent ETARGET errors after publish (#9045) (@Jadu07)
+### Documentation
+* [`16ac4e0`](https://github.com/npm/cli/commit/16ac4e02796248f3abb4fa043427236cda22a902) [#9054](https://github.com/npm/cli/pull/9054) fix workspace cross-dependency documentation (@owlstronaut)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.4.1): `@npmcli/arborist@9.4.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.4): `libnpmdiff@8.1.4`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.2.4): `libnpmexec@10.2.4`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.18): `libnpmfund@7.0.18`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.4): `libnpmpack@9.1.4`
+
 ## [11.11.0](https://github.com/npm/cli/compare/v11.10.1...v11.11.0) (2026-02-25)
 ### Features
 * [`4fcd352`](https://github.com/npm/cli/commit/4fcd352c553fdc0f13a87ad71ef66d7515c11886) [#9017](https://github.com/npm/cli/pull/9017) add :type(registry) to query selector syntax (#9017) (@wraithgar)
