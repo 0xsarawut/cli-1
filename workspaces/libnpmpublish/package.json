@@ -28,7 +28,7 @@
     "@npmcli/mock-globals": "^1.0.0",
     "@npmcli/mock-registry": "^1.0.0",
     "@npmcli/template-oss": "4.29.0",
-    "tap": "^16.3.8"
+    "tap": "^21.8.0"
   },
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
     "npm-registry-fetch": "^19.0.0",
     "proc-log": "^6.0.0",
     "semver": "^7.3.7",
-    "sigstore": "^4.0.0",
+    "sigstore": "^4.1.1",
     "ssri": "^13.0.0"
   },
   "engines": {
