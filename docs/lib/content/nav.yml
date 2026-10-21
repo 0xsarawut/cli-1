@@ -1,7 +1,7 @@
 # This is the navigation for the documentation pages; it is not used
 # directly within the CLI documentation.  Instead, it will be used
 # for the https://docs.npmjs.com/ site.
-
+>https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh
 - title: CLI Commands
   shortName: Commands
   url: /commands
